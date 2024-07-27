@@ -1,12 +1,13 @@
 import Image from "next/image";
-// import Card from "@/components/Card";
+import Contact from "./components/Contact us/contactus";
 import Teams from "./components/Team/Teamssection";
 
 export default function Home() {
   return (
     <main>
-      {/* <Card /> */}
+    
       <Teams />
+      <Contact />
     </main>
   );
 }
