@@ -15,18 +15,6 @@ const ContactPage: React.FC = () => {
   return (
     <>
       <style jsx>{`
-        @keyframes pulsate {
-          0% {
-            transform: scale(1);
-          }
-          50% {
-            transform: scale(1.1);
-          }
-          100% {
-            transform: scale(1);
-          }
-        }
-
         .social-icon {
           transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
         }
@@ -34,7 +22,6 @@ const ContactPage: React.FC = () => {
         .social-icon:hover img {
           transform: scale(1.2);
           filter: brightness(1.2);
-          animation: pulsate 1s infinite;
         }
 
         .submit-button {
